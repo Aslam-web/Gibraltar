@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_12">
+
+    <TextView
+        android:id="@+id/tvReg13"
+        android:layout_width="318dp"
+        android:layout_height="318dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="check your university issued email!\n\n  hit the link and get yourself verified."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btn_reg13"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:backgroundTint="@color/black"
+        android:text=">>"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
