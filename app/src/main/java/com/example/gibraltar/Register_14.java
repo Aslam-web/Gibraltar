@@ -18,7 +18,7 @@ public class Register_14 extends AppCompatActivity {
         btnNext = findViewById(R.id.btn_reg14);
 
         btnNext.setOnClickListener(v->{
-            Intent empty = new Intent(Register_14.this, EmptyActivity.class);
+            Intent empty = new Intent(Register_14.this, EventFeed_5.class);
             startActivity(empty);
         });
     }

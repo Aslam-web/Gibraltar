@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gibraltar">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gibraltar" >
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Gibraltar">
+        android:theme="@style/Theme.Gibraltar" >
+        <activity
+            android:name=".EventFeed_22"
+            android:exported="false" />
+        <activity
+            android:name=".EventFeed_15"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPage"
+            android:exported="false"
+            android:label="@string/title_activity_menu_bar"
+            android:theme="@style/Theme.Gibraltar.NoActionBar" />
+        <activity
+            android:name=".EventFeed_5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".EmptyActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Register_14"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Register_13"
-            android:exported="false" />
-        <activity android:name=".Register_12">
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register_12"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
